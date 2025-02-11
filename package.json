@@ -11,7 +11,7 @@
     "lint": "eslint --fix --ext .js,.vue .",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
-    "test": "vitest"
+    "test": "vitest --run"
   },
   "dependencies": {
     "nuxt": "^3.15.4",
@@ -19,10 +19,13 @@
     "vue-router": "latest"
   },
   "devDependencies": {
+    "@nuxt/test-utils": "^3.15.4",
     "@nuxtjs/tailwindcss": "^6.13.1",
+    "@vue/test-utils": "^2.4.6",
     "eslint-config-prettier": "^10.0.1",
     "eslint-plugin-prettier": "^5.2.3",
     "eslint-plugin-vue": "^9.32.0",
+    "jsdom": "^26.0.0",
     "prettier": "3.5.0",
     "vitest": "^3.0.5"
   },
